@@ -90,7 +90,7 @@ const InfiniteCarousel = ({ direction = "left", showControls = true }: InfiniteC
         {duplicatedMovies.map((movie, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-48 h-72 rounded-lg overflow-hidden hover:scale-105 transition-smooth shadow-lg"
+            className="flex-shrink-0 w-32 h-48 sm:w-40 sm:h-60 md:w-48 md:h-72 rounded-lg overflow-hidden hover:scale-105 transition-smooth shadow-lg"
           >
             <img
               src={movie}

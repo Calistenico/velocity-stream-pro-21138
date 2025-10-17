@@ -9,14 +9,15 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <img src={goldflixLogo} alt="GOLDFLIX" className="h-12 w-auto" />
+      <div className="container mx-auto px-3 sm:px-4 h-14 sm:h-16 flex items-center justify-between">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <img src={goldflixLogo} alt="GOLDFLIX" className="h-10 sm:h-12 w-auto" />
         </div>
         
         <Button 
           variant="hero" 
-          size="lg"
+          size="default"
+          className="text-sm sm:text-base px-4 sm:px-6"
           onClick={scrollToPlans}
         >
           Assinar Agora

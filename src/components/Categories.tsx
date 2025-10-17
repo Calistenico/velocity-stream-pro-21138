@@ -23,12 +23,12 @@ const Categories = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-12 sm:py-16 md:py-20 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-black text-center mb-4">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-3 sm:mb-4">
           Conteúdo de <span className="text-primary">qualidade</span>
         </h2>
-        <p className="text-xl text-center text-muted-foreground mb-16">
+        <p className="text-base sm:text-lg md:text-xl text-center text-muted-foreground mb-8 sm:mb-12 md:mb-16">
           sem antenas e sem decodificadores
         </p>
 

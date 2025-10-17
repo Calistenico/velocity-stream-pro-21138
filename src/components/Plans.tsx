@@ -51,24 +51,24 @@ const Plans = () => {
   ];
 
   return (
-    <section id="planos" className="py-20 bg-secondary/50">
+    <section id="planos" className="py-12 sm:py-16 md:py-20 bg-secondary/50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black mb-4">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-3 sm:mb-4">
             Escolha seu <span className="text-primary">plano</span>
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground px-4">
             Pague menos, assista mais. Sem taxas escondidas.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`gradient-card p-8 rounded-xl border-2 transition-smooth animate-fade-in relative ${
+              className={`gradient-card p-6 sm:p-8 rounded-xl border-2 transition-smooth animate-fade-in relative ${
                 plan.popular
-                  ? "border-primary scale-105 shadow-2xl glow-primary"
+                  ? "border-primary md:scale-105 shadow-2xl glow-primary"
                   : "border-border hover:border-primary/50"
               }`}
               style={{ animationDelay: `${index * 0.1}s` }}
@@ -82,22 +82,22 @@ const Plans = () => {
               )}
 
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">{plan.name}</h3>
                 {plan.discount && (
                   <span className="text-primary text-sm font-semibold">
                     {plan.discount}
                   </span>
                 )}
                 <div className="mt-4">
-                  <span className="text-5xl font-black">{plan.price}</span>
-                  <span className="text-muted-foreground">{plan.period}</span>
+                  <span className="text-4xl sm:text-5xl font-black">{plan.price}</span>
+                  <span className="text-sm sm:text-base text-muted-foreground">{plan.period}</span>
                 </div>
               </div>
 
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
                 {plan.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-center gap-2">
-                    <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <li key={idx} className="flex items-center gap-2 text-sm sm:text-base">
+                    <Check className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
                     <span>{feature}</span>
                   </li>
                 ))}
@@ -105,7 +105,7 @@ const Plans = () => {
 
               <Button
                 variant="hero"
-                className="w-full text-lg py-6"
+                className="w-full text-base sm:text-lg py-5 sm:py-6"
                 asChild
               >
                 <a href={plan.link} target="_blank" rel="noopener noreferrer">
