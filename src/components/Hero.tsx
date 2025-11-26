@@ -44,7 +44,7 @@ const Hero = () => {
             className="text-base sm:text-lg px-8 sm:px-12 py-5 sm:py-6 h-auto border-2 w-full sm:w-auto"
             asChild
           >
-            <a href="https://wa.me/553599562676" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5571984407514" target="_blank" rel="noopener noreferrer">
               Testar Grátis
             </a>
           </Button>
