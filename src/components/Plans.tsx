@@ -5,7 +5,7 @@ const Plans = () => {
   const plans = [
     {
       name: "Plano Mensal",
-      price: "R$ 34,90",
+      price: "R$ 30,00",
       period: "/mês",
       discount: "",
       link: "https://pay.cakto.com.br/63fngnf_474367",
@@ -19,7 +19,7 @@ const Plans = () => {
     },
     {
       name: "Plano Trimestral",
-      price: "R$ 64,90",
+      price: "R$ 60,00",
       period: "/3 meses",
       discount: "30% de desconto",
       link: "https://pay.cakto.com.br/sdiwvpd",
@@ -30,7 +30,7 @@ const Plans = () => {
         "Todos os canais",
         "Filmes e séries ilimitados",
         "Suporte prioritário",
-        "Economia de R$ 40",
+        "Economia de R$ 30",
       ],
     },
     {
@@ -114,6 +114,28 @@ const Plans = () => {
               </Button>
             </div>
           ))}
+        </div>
+
+        {/* CTA para Revendedores */}
+        <div className="mt-12 sm:mt-16 max-w-4xl mx-auto">
+          <div className="gradient-card p-6 sm:p-8 md:p-10 rounded-xl border-2 border-primary text-center animate-fade-in glow-primary">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-black mb-3 sm:mb-4">
+              Quer ser um <span className="text-primary">revendedor</span>?
+            </h3>
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8">
+              Ganhe dinheiro revendendo nossos planos! Entre em contato e descubra as vantagens exclusivas.
+            </p>
+            <Button
+              variant="hero"
+              size="lg"
+              className="text-base sm:text-lg px-8 sm:px-12 py-5 sm:py-6 h-auto"
+              asChild
+            >
+              <a href="https://wa.me/5571984407514?text=Olá! Tenho interesse em ser revendedor" target="_blank" rel="noopener noreferrer">
+                Falar com Suporte
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
