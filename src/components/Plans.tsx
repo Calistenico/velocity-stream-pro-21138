@@ -18,12 +18,27 @@ const Plans = () => {
       ],
     },
     {
-      name: "Plano Trimestral",
-      price: "R$ 60,00",
+      name: "Plano 3 Meses",
+      price: "R$ 75,00",
       period: "/3 meses",
-      discount: "30% de desconto",
+      discount: "17% de desconto",
       link: "https://pay.cakto.com.br/sdiwvpd",
       popular: true,
+      features: [
+        "Acesso completo",
+        "Qualidade Full HD",
+        "Todos os canais",
+        "Filmes e séries ilimitados",
+        "Suporte prioritário",
+        "Economia de R$ 15",
+      ],
+    },
+    {
+      name: "Plano 6 Meses",
+      price: "R$ 150,00",
+      period: "/6 meses",
+      discount: "17% de desconto",
+      link: "https://pay.cakto.com.br/kjbf84t",
       features: [
         "Acesso completo",
         "Qualidade Full HD",
@@ -35,9 +50,9 @@ const Plans = () => {
     },
     {
       name: "Plano Anual",
-      price: "R$ 194,90",
+      price: "R$ 250,00",
       period: "/ano",
-      discount: "55% de desconto",
+      discount: "31% de desconto",
       link: "https://pay.cakto.com.br/kjbf84t",
       features: [
         "Acesso completo",
@@ -45,7 +60,7 @@ const Plans = () => {
         "Todos os canais",
         "Filmes e séries ilimitados",
         "Suporte VIP",
-        "Economia de R$ 225",
+        "Economia de R$ 110",
       ],
     },
   ];
@@ -62,7 +77,7 @@ const Plans = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-7xl mx-auto">
           {plans.map((plan, index) => (
             <div
               key={index}

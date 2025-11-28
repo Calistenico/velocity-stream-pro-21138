@@ -1,5 +1,5 @@
 import { Mail, MessageCircle } from "lucide-react";
-import xstartvLogo from "@/assets/xstartv-logo.png";
+import lukLogo from "@/assets/luk-logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="sm:col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-              <img src={xstartvLogo} alt="LUK STREAMING" className="h-10 sm:h-12 w-auto" />
+              <img src={lukLogo} alt="LUK STREAMING" className="h-10 sm:h-12 w-auto" />
             </div>
             <p className="text-sm sm:text-base text-muted-foreground">
               Streaming premium de alta qualidade com tecnologia de ponta e suporte especializado.
