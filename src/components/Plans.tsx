@@ -131,7 +131,7 @@ const Plans = () => {
               className="text-base sm:text-lg px-8 sm:px-12 py-5 sm:py-6 h-auto"
               asChild
             >
-              <a href="https://wa.me/5571984407514?text=Olá! Tenho interesse em ser revendedor" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5534972488793?text=Olá! Tenho interesse em ser revendedor" target="_blank" rel="noopener noreferrer">
                 Falar com Suporte
               </a>
             </Button>

@@ -9,10 +9,10 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="sm:col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-              <img src={xstartvLogo} alt="XSTARTV" className="h-10 sm:h-12 w-auto" />
+              <img src={xstartvLogo} alt="LUK STREAMING" className="h-10 sm:h-12 w-auto" />
             </div>
             <p className="text-sm sm:text-base text-muted-foreground">
-              Sua plataforma completa de streaming com milhares de filmes, séries e canais ao vivo.
+              Streaming premium de alta qualidade com tecnologia de ponta e suporte especializado.
             </p>
           </div>
 
@@ -21,7 +21,7 @@ const Footer = () => {
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Contato</h3>
             <div className="space-y-2 sm:space-y-3">
               <a 
-                href="https://wa.me/5571984407514" 
+                href="https://wa.me/5534972488793" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm sm:text-base text-muted-foreground hover:text-primary transition-smooth"
@@ -30,11 +30,11 @@ const Footer = () => {
                 <span>WhatsApp</span>
               </a>
               <a 
-                href="mailto:contato@xstartv.com"
+                href="mailto:contato@lukstreaming.com"
                 className="flex items-center gap-2 text-sm sm:text-base text-muted-foreground hover:text-primary transition-smooth"
               >
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
-                <span>contato@xstartv.com</span>
+                <span>contato@lukstreaming.com</span>
               </a>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-6 sm:pt-8 text-center text-sm sm:text-base text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} XSTARTV. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} LUK STREAMING. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
