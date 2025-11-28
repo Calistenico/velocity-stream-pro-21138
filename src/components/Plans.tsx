@@ -8,7 +8,7 @@ const Plans = () => {
       price: "R$ 30,00",
       period: "/mês",
       discount: "",
-      link: "https://pay.cakto.com.br/63fngnf_474367",
+      link: "https://wa.me/5534972488793?text=Olá! Tenho interesse no Plano Mensal de R$ 30,00",
       features: [
         "Acesso completo",
         "Qualidade Full HD",
@@ -22,7 +22,7 @@ const Plans = () => {
       price: "R$ 75,00",
       period: "/3 meses",
       discount: "17% de desconto",
-      link: "https://pay.cakto.com.br/sdiwvpd",
+      link: "https://wa.me/5534972488793?text=Olá! Tenho interesse no Plano 3 Meses de R$ 75,00",
       popular: true,
       features: [
         "Acesso completo",
@@ -38,7 +38,7 @@ const Plans = () => {
       price: "R$ 150,00",
       period: "/6 meses",
       discount: "17% de desconto",
-      link: "https://pay.cakto.com.br/kjbf84t",
+      link: "https://wa.me/5534972488793?text=Olá! Tenho interesse no Plano 6 Meses de R$ 150,00",
       features: [
         "Acesso completo",
         "Qualidade Full HD",
@@ -53,7 +53,7 @@ const Plans = () => {
       price: "R$ 250,00",
       period: "/ano",
       discount: "31% de desconto",
-      link: "https://pay.cakto.com.br/kjbf84t",
+      link: "https://wa.me/5534972488793?text=Olá! Tenho interesse no Plano Anual de R$ 250,00",
       features: [
         "Acesso completo",
         "Qualidade Full HD",
