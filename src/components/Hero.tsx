@@ -20,12 +20,12 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 text-center animate-fade-in">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black mb-6 leading-tight">
-          Assista filmes, séries e <br className="hidden sm:block" />
-          <span className="text-primary">TV ao vivo sem limites!</span>
+          O Streaming Premium que <br className="hidden sm:block" />
+          <span className="text-primary">você merece ter!</span>
         </h1>
         
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto px-4">
-          Tenha acesso ilimitado a conteúdos premium pagando pouco.
+          Acesso exclusivo a milhares de conteúdos em qualidade superior. Tecnologia de ponta, segurança garantida e suporte VIP. Sua experiência de streaming nunca mais será a mesma.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
@@ -44,7 +44,7 @@ const Hero = () => {
             className="text-base sm:text-lg px-8 sm:px-12 py-5 sm:py-6 h-auto border-2 w-full sm:w-auto"
             asChild
           >
-            <a href="https://wa.me/5571984407514" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5534972488793" target="_blank" rel="noopener noreferrer">
               Testar Grátis
             </a>
           </Button>
