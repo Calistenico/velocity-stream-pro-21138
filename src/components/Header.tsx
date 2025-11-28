@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import xstartvLogo from "@/assets/xstartv-logo.png";
+import lukLogo from "@/assets/luk-logo.png";
 
 const Header = () => {
   const scrollToPlans = () => {
@@ -11,7 +11,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-3 sm:px-4 h-14 sm:h-16 flex items-center justify-between">
         <div className="flex items-center gap-2 sm:gap-3">
-          <img src={xstartvLogo} alt="LUK STREAMING" className="h-10 sm:h-12 w-auto" />
+          <img src={lukLogo} alt="LUK STREAMING" className="h-10 sm:h-12 w-auto" />
         </div>
         
         <Button 
